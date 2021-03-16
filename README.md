@@ -44,9 +44,9 @@ source("C:/Users/tdevine/Box Sync/research/solar/Analysis/code_tablesToPull.R")
     source("C:/Users/tdevine/Box Sync/research/solar/Analysis/code_filterCSI.R")
 
 ####################.ANALYSIS SECTION.#########################   
-# TABLE CREATION (TABLE 1)
+#TABLE CREATION (TABLE 1)
     #    Variables        |  Description
-    #del   tab1              | df for table 1 output 
+    #del tab1             | df for table 1 output 
     #   xtab1             | Latex code for table 1 output 
     setwd("C:/Users/tdevine/Box Sync/research/solar/Analysis/")
     suppressWarnings(source("code_maketables.R")) # we suppress warnings based on deleting variables that don't exist, I keep them there in case I file their place (lines in a table)
@@ -70,5 +70,3 @@ source("code_makePanel.R") #source("code_hazard.R") #create data for hazard,
     
 #...................deleted/commented-out
 #see code_totalcensus_11-24_copy.R		
-    
-    
